@@ -169,7 +169,7 @@ after_bundle do
   # Generators: db + simple form + pages controller
   ########################################
   rake 'db:drop db:create db:migrate'
-  generate('simple_form:install', '--bootstrap')
+  generate('simple_form:install')
   generate(:controller, 'pages', 'home', '--skip-routes')
 
   # Routes
@@ -244,5 +244,5 @@ EOF
   ########################################
   git :init
   git add: '.'
-  git commit: "-m 'Initial commit with devise template from https://github.com/lewagon/rails-templates'"
+  git commit: "-m 'Initial commit'"
 end
