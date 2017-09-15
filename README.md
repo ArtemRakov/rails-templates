@@ -12,7 +12,7 @@ Get a minimal rails 5 app ready to be deployed on Heroku with Bootstrap, Simple 
 gem install rails -v 5.0.5 # Maybe you already have it :)
 rails new \
   -T --database postgresql \
-  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/minimal.rb \
+  -m https://raw.githubusercontent.com/artemrakov/rails-templates/master/minimal.rb \
   CHANGE_THIS_TO_YOUR_RAILS_APP_NAME
 ```
 
